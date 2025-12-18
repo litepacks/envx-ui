@@ -7,17 +7,28 @@
     "envx-ui": "./cli.js"
   },
   "scripts": {
-    "start": "node cli.js"
+    "start": "node cli.js",
+    "release": "release-it"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/litepacks/envx-ui.git"
+  },
+  "bugs": {
+    "url": "https://github.com/litepacks/envx-ui/issues"
+  },
+  "homepage": "https://github.com/litepacks/envx-ui#readme",
   "keywords": [
     "dotenv",
     "dotenvx",
     "environment",
     "env",
     "ui",
-    "manager"
+    "manager",
+    "encryption",
+    "local"
   ],
-  "author": "",
+  "author": "cond",
   "license": "MIT",
   "dependencies": {
     "@dotenvx/dotenvx": "^1.48.4",
@@ -25,5 +36,8 @@
     "express": "^4.18.2",
     "helmet": "^8.1.0",
     "open": "^10.1.0"
+  },
+  "devDependencies": {
+    "release-it": "^18.1.2"
   }
 }

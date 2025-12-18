@@ -278,6 +278,30 @@ envx-ui/
 - `@dotenvx/dotenvx` - Encryption support
 - `helmet` - Security headers (CSP, XSS protection)
 
+## Release
+
+```bash
+# Release a new version (patch/minor/major)
+npm run release
+
+# Or specify version
+npm run release -- patch
+npm run release -- minor
+npm run release -- major
+```
+
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
 ## License
 
 MIT
+
+---
+
+Made with ⚡ by [litepacks](https://github.com/litepacks)
